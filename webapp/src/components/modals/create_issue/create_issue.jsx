@@ -213,14 +213,12 @@ export default class CreateIssueModal extends PureComponent {
         }
 
         const footerClose = (
-            <React.Fragment>
-                <FormButton
-                    type='submit'
-                    btnClass='btn btn-primary'
-                    defaultMessage='Close'
-                    onClick={this.handleClose}
-                />
-            </React.Fragment>
+            <FormButton
+                type='submit'
+                btnClass='btn btn-primary'
+                defaultMessage='Close'
+                onClick={this.handleClose}
+            />
         );
 
         let footer = (
