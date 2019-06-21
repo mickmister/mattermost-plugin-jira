@@ -87,17 +87,13 @@ export default class JiraIssueSelector extends Component {
         let errComponent;
         if (this.state.error) {
             errComponent = (
-
-                <React.Fragment>
-                    <p className='alert alert-danger'>
-                        <i
-                            className='fa fa-warning'
-                            title='Warning Icon'
-                        />
-                        <span> {serverError.toString()}</span>
-                    </p>
-                </React.Fragment>
-
+                <p className='alert alert-danger'>
+                    <i
+                        className='fa fa-warning'
+                        title='Warning Icon'
+                    />
+                    <span> {serverError.toString()}</span>
+                </p>
             );
         }
 

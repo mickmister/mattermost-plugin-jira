@@ -250,17 +250,13 @@ export default class CreateIssueModal extends PureComponent {
         // to the user after clicking the create button.
         if (error) {
             issueError = (
-                <div style={style.modal}>
-                    <React.Fragment>
-                        <p className='alert alert-danger'>
-                            <i
-                                className='fa fa-warning'
-                                title='Warning Icon'
-                            />
-                            <span> {error}</span>
-                        </p>
-                    </React.Fragment>
-                </div>
+                <p className='alert alert-danger'>
+                    <i
+                        className='fa fa-warning'
+                        title='Warning Icon'
+                    />
+                    <span> {error}</span>
+                </p>
             );
         }
 
@@ -269,17 +265,13 @@ export default class CreateIssueModal extends PureComponent {
         // ticket. likely a permissions error.
         if (getMetaDataError) {
             const metaDataError = (
-                <div style={style.modal}>
-                    <React.Fragment>
-                        <p className='alert alert-danger'>
-                            <i
-                                className='fa fa-warning'
-                                title='Warning Icon'
-                            />
-                            <span> {getMetaDataError}</span>
-                        </p>
-                    </React.Fragment>
-                </div>
+                <p className='alert alert-danger'>
+                    <i
+                        className='fa fa-warning'
+                        title='Warning Icon'
+                    />
+                    <span> {getMetaDataError}</span>
+                </p>
             );
             component = metaDataError;
             footer = footerClose;
