@@ -64,9 +64,7 @@ export default class JiraIssueSelector extends Component {
     };
 
     render = () => {
-        const {error, theme} = this.props;
-        const style = getStyle(theme);
-
+        const {error} = this.props;
         const requiredStar = (
             <span
                 className={'error-text'}
@@ -147,16 +145,3 @@ export default class JiraIssueSelector extends Component {
         );
     }
 }
-
-const getStyle = (theme) => ({
-    modal: {
-        padding: '1em 1em 0',
-        color: theme.centerChannelColor,
-        backgroundColor: theme.centerChannelBg,
-    },
-    descriptionArea: {
-        height: 'auto',
-        width: '100%',
-        color: '#000',
-    },
-});
