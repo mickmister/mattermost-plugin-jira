@@ -6,7 +6,7 @@ export function getProjectValues(metadata) {
         return [];
     }
 
-    return metadata.projects;
+    return metadata.projects.length;
 }
 
 export function getIssueTypes(metadata, projectKey) {
