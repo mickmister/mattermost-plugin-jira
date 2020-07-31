@@ -225,6 +225,10 @@ github.com/mattn/go-sqlite3 v1.9.0/go.mod h1:FPy6KqzDD04eiIsT53CuJW3U88zkxoIYsOq
 github.com/mattn/go-sqlite3 v1.11.0 h1:LDdKkqtYlom37fkvqs8rMPFKAMe8+SgjbwZ6ex1/A/Q=
 github.com/mattn/go-sqlite3 v1.11.0/go.mod h1:FPy6KqzDD04eiIsT53CuJW3U88zkxoIYsOqkbpncsNc=
 github.com/matttproud/golang_protobuf_extensions v1.0.1/go.mod h1:D8He9yQNgCq6Z5Ld7szi9bcBfOoFv/3dc6xSMkL2PC0=
+github.com/mickmister/atlassian-jwt v0.0.0-20180307182949-7bb4ae273058 h1:nOQ1PhMbqmRsQDCN9LZdgAD0gMBaDLUU5QT3OPG/Lzo=
+github.com/mickmister/atlassian-jwt v0.0.0-20180307182949-7bb4ae273058/go.mod h1:hNRO5bgIAUrq453Jz9KeIUkO1TloW/lhQnhAuslt9Lg=
+github.com/mickmister/atlassian-jwt v0.0.0-20200731104634-5b254d78e644 h1:4D8yNx7UvXyfDBqavnU2DrNKxMBykXvkoE1SUXkqUn4=
+github.com/mickmister/atlassian-jwt v0.0.0-20200731104634-5b254d78e644/go.mod h1:hNRO5bgIAUrq453Jz9KeIUkO1TloW/lhQnhAuslt9Lg=
 github.com/miekg/dns v1.0.14/go.mod h1:W1PPwlIAgtquWBMBEV9nkV9Cazfe8ScdGz/Lj7v3Nrg=
 github.com/miekg/dns v1.1.19/go.mod h1:bPDLeHnStXmXAq1m/Ch/hvfNHr14JKNPMBo3VZKjuso=
 github.com/minio/minio-go/v6 v6.0.40/go.mod h1:qD0lajrGW49lKZLtXKtCB4X/qkMf0a5tBvN2PaZg7Gg=

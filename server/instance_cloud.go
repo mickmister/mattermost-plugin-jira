@@ -12,8 +12,8 @@ import (
 
 	jira "github.com/andygrunwald/go-jira"
 	jwt "github.com/dgrijalva/jwt-go"
+	ajwt "github.com/mickmister/atlassian-jwt"
 	"github.com/pkg/errors"
-	ajwt "github.com/rbriski/atlassian-jwt"
 	"golang.org/x/oauth2"
 	oauth2_jira "golang.org/x/oauth2/jira"
 

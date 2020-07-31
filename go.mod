@@ -12,9 +12,9 @@ require (
 	github.com/mattermost/mattermost-plugin-autolink v1.1.3-0.20200203183014-8c82b7dc7fa6
 	github.com/mattermost/mattermost-plugin-workflow-client v0.0.0-20200225165807-b0524a245156
 	github.com/mattermost/mattermost-server/v5 v5.19.0
+	github.com/mickmister/atlassian-jwt v0.0.0-20200731104634-5b254d78e644
 	github.com/pelletier/go-toml v1.6.0 // indirect
 	github.com/pkg/errors v0.8.1
-	github.com/rbriski/atlassian-jwt v0.0.0-20180307182949-7bb4ae273058
 	github.com/stretchr/testify v1.4.0
 	github.com/trivago/tgo v1.0.7 // indirect
 	go.uber.org/zap v1.12.0 // indirect
