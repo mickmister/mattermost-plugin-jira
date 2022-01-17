@@ -9,10 +9,9 @@ ports:
 tasks:
   - name: Mattermost Docker
     init: |
-      cd dev
-      docker-compose pull
+      cd dev && docker-compose pull
     command: |
-      docker-compose up
+      cd dev && docker-compose up
   - name: Plugin Development
     init: |
       nvm install v13.4.0
