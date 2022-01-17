@@ -7,11 +7,14 @@ ports:
     onOpen: open-browser
 
 tasks:
-  - name: Mattermost Docker
+  - name: Jira and Postgres Docker
     init: |
       docker-compose pull
     command: |
-      docker-compose up
+      docker-compose up jira db
+  - name: Mattermost Docker
+    command: |
+      docker-compose up mattermost
   - name: Plugin Development
     init: |
       nvm install v13.4.0
