@@ -21,7 +21,12 @@ tasks:
       echo "Run make deploy to deploy!"
       
     openMode: split-right
-    
+
+github:
+  prebuilds:
+    master: true
+    pullRequests: true
+
 vscode:
   extensions:
     - golang.go
